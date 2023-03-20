@@ -4,7 +4,7 @@
 
 /**
  * The main function
- * Generates a random number and then checks if it is negative, zero, or positive
+ * Generate a random number, check if it is negative, zero, or positive
  */
 int main(void)
 {
