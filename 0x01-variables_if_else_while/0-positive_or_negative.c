@@ -3,8 +3,9 @@
 #include <stdio.h>
 
 /**
- * The main function
+ * main - Entry point
  * Generate a random number, check if it is negative, zero, or positive
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
