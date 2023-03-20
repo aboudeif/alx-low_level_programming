@@ -8,17 +8,16 @@
  */
 int main(void)
 {
-int num1 = 0;
-int num2 = 0;
+int n = 0, n2 = 0;
 do {
     do {
-      putchar(num1 + '0');
-      putchar(num2 + '0');
+      putchar(n + '0');
+      putchar(n2 + '0');
       putchar(',');
       putchar(' ');
-    } while (++num2 % 10 == num2);
-    num2 = 0;
-} while (++num1 % 10 == num1);
+    } while (++n2 % 10 == n2);
+    n2 = 0;
+} while (++n % 10 == n);
 putchar('\n');
 return (0);
 }
