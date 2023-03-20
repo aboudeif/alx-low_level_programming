@@ -10,10 +10,12 @@ int main(void)
 {
 int n = 0;
 putchar(n++ + '0');
-while (n % 10 == n) {
+while (n % 10 == n)
+{
 putchar(',');
 putchar(' ');
 putchar(n++ + '0');
 }
+putchar(' ');
 return (0);
 }
