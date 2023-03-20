@@ -18,6 +18,6 @@ putchar(' ');
 }
 putchar(n++ + '0');
 }
-putchar(' ');
+putchar('\n');
 return (0);
 }
