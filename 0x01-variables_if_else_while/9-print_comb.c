@@ -11,7 +11,7 @@ int main(void)
 int n = 0;
 while (n % 10 == n)
 {
-if(n > 0)
+if (n > 0)
 {
 putchar(',');
 putchar(' ');
