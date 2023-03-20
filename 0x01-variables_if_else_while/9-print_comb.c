@@ -8,16 +8,12 @@
  */
 int main(void)
 {
-int n = 0, n2 = 0;
-do {
-   do {
-      putchar(n++ + '0');
-      putchar(n2 + '0');
-      putchar(',');
-      putchar(' ');
-    } while (n2 % 10 == n2);
-   n++;
-   n2 = 0;
-} while (n % 10 == n);
+int n = 0;
+putchar(n++ + '0');
+while (n % 10 == n) {
+putchar(',');
+putchar(' ');
+putchar(n++ + '0');
+}
 return (0);
 }
