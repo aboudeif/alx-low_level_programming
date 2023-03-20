@@ -8,7 +8,8 @@
  */
 int main(void)
 {
-int num1 = 0, num2 = 0;
+int num1 = 0;
+int num2 = 0;
 do {
     do {
       putchar(num1 + '0');
