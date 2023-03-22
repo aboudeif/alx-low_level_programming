@@ -9,5 +9,8 @@
  */
 int print_sign(int n)
 {
-return (n != 0 ? n > 0 ? 1 : -1 : 0);
+char sign[3] = {'-', '0', '+'};
+int status = n != 0 ? n > 0 ? 1 : -1 : 0;
+_putchar(sign[status + 1]);
+return (status);
 }
