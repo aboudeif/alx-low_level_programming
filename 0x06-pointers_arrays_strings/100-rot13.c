@@ -13,12 +13,13 @@ char half2[] = "nNoOpPqQrRsStTuUvVwWxXyYzZaAbBcCdDeEfFgGhHiIjJkKlLmM";
 int i = 0, j;
 while (s[i] != 0)
 {
-char c = s[i++];
+char c = s[i];
 for (j = 0; j < 52; j++)
 {
 if (c == half1[j])
-s[i-1] = half2[j];
+s[i] = half2[j];
 }
+i++;
 }
 return (s);
 }
